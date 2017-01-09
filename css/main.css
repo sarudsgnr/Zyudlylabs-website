@@ -84,7 +84,7 @@ a:focus {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   padding: 0!important;
-  background: #3f51b5 !important;
+  background: #225378 !important;
 }
 .sticky-navigation .row {
   padding: 0;
@@ -109,6 +109,7 @@ a:focus {
   transition: transform 0.4s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    background: #1695a3 !important;
 }
 .navbar-nav {
   margin: 0;
@@ -433,7 +434,7 @@ a:focus {
   padding: 48px 0;
 }
 #cta {
-  background: #3f51b5;
+  background: #1695a3;
 }
 #cta .drawer {
   float: left;
@@ -947,4 +948,36 @@ a:focus {
 .ball-triangle-path > div:nth-of-type(3) {
   top: 50px;
   left: 50px;
+}
+
+/*** New CSS Added***/
+
+.img_radius{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #888;
+    margin: 0 auto;
+}
+.img_radius img{
+    vertical-align: middle;
+    width: 90px;
+}
+
+.social-profile {
+  display: inline-block;
+  margin: 10px 2px;
+  color: #999;
+}
+.social-profile i {
+  width: 34px;
+  font-size: 16px;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-profile i:hover {
+  color: #666;
 }
