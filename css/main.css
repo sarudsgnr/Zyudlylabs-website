@@ -411,7 +411,7 @@ a:focus {
   color: #fff;
 }
 #why .content h2 {
-  font-size: 50px;
+  font-size: 46px;
   line-height: 70px;
   margin-top: 0;
   font-weight: 100;
@@ -434,7 +434,7 @@ a:focus {
   padding: 48px 0;
 }
 #cta {
-  background: #1695a3;
+  background: #225378;
 }
 #cta .drawer {
   float: left;
@@ -767,7 +767,7 @@ a:focus {
   width: 48px;
   font-size: 16px;
   height: 48px;
-  background: rgba(255, 255, 255, 0.18);
+  background: #999;
   text-align: center;
   line-height: 48px;
   border-radius: 50%;
@@ -987,4 +987,10 @@ a:focus {
 }
 p{
     margin: 0 0 20px 0;
+}
+.btn-primary{
+    background: #eb7f00 !important;
+}
+.btn-primary:hover{
+    background: #f99f36 !important;
 }
