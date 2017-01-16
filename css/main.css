@@ -726,7 +726,7 @@ a:focus {
 #copyright .copyright-text {
   color: #999;
   margin-top: 15px;
-  text-align: center;
+  /**text-align: center;**/
 }
 #copyright .copyright-text a {
   transition: all 0.2s ease;
@@ -767,7 +767,7 @@ a:focus {
   width: 48px;
   font-size: 16px;
   height: 48px;
-  background: #999;
+  background: #666;
   text-align: center;
   line-height: 48px;
   border-radius: 50%;
